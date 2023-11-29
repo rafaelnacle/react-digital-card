@@ -1,13 +1,14 @@
 import '../styles/Info.css'
 import Button from '../components/Button';
 
+import profilePic from '../assets/me.jpg'
 import mailIcon from '../assets/Mail.svg'
-import LinkedInIcon from '../assets/LinkedIn.svg'
+import linkedInIcon from '../assets/LinkedIn.svg'
 
 function Info() {
   return (
     <header className="info">
-      <img className="profile-img" src="./src/assets/me.jpg" alt="profile picture of Rafael" />
+      <img className="profile-img" src={profilePic} alt="profile picture of Rafael" />
       <h1>Rafael Nacle</h1>
       <h3>Web Developer</h3>
       <a href='#'>rafaelnacle.website</a>
@@ -21,7 +22,7 @@ function Info() {
           color='#374151'
         />
         <Button 
-          iconImg={LinkedInIcon} 
+          iconImg={linkedInIcon} 
           text='LinkedIn'
           link='https://www.linkedin.com/in/rafael-nacle/'
           backgroundColor="#5093E2"
