@@ -1,0 +1,13 @@
+.icon-btn-wrapper {
+  margin: 0 0.8em;
+  cursor: pointer;
+}
+
+.icon-btn-wrapper img {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-btn-wrapper:hover {
+  filter: brightness(0.7)
+}

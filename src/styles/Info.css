@@ -1,0 +1,45 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.info h1 {
+  margin: 0.5em 0 0;
+  font-size: 1.56rem;
+}
+
+.info h3 {
+  margin: 0 0 0.2em;
+  color: #F3BF99;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.info a {
+  cursor: pointer;
+  margin: 0 0 1.5em;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.info a:hover {
+  filter: brightness(0.8)
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
