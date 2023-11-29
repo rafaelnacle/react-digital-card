@@ -5,17 +5,17 @@ function Footer( ) {
   return (
     <footer>
       <IconButton 
-        iconImg='/src/assets/twitter-icon.svg'
+        iconImg='./src/assets/twitter-icon.svg'
         link="https://twitter.com/rafanacle"
       />
       <IconButton 
-        iconImg='/src/assets/facebook-icon.svg'
+        iconImg='./src/assets/facebook-icon.svg'
       />
       <IconButton 
-        iconImg='/src/assets/instagram-icon.svg'
+        iconImg='./src/assets/instagram-icon.svg'
       />
       <IconButton 
-        iconImg='/src/assets/github-icon.svg'
+        iconImg='./src/assets/github-icon.svg'
         link='https://github.com/rafaelnacle'
       />
     </footer>

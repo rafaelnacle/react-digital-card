@@ -11,14 +11,14 @@ function Info() {
 
       <nav className="nav">
         <Button 
-          iconImg={'/src/assets/Mail.svg'} 
+          iconImg={'./src/assets/Mail.svg'} 
           text='Mail'
           link="rafaelnacle@gmail.com"
           backgroundColor='#FFFFFF'
           color='#374151'
         />
         <Button 
-          iconImg={'/src/assets/LinkedIn.svg'} 
+          iconImg={'./src/assets/LinkedIn.svg'} 
           text='LinkedIn'
           link='https://www.linkedin.com/in/rafael-nacle/'
           backgroundColor="#5093E2"
