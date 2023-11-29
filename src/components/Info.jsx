@@ -1,6 +1,9 @@
 import '../styles/Info.css'
 import Button from '../components/Button';
 
+import mailIcon from '../assets/Mail.svg'
+import LinkedInIcon from '../assets/LinkedIn.svg'
+
 function Info() {
   return (
     <header className="info">
@@ -11,14 +14,14 @@ function Info() {
 
       <nav className="nav">
         <Button 
-          iconImg={'./src/assets/Mail.svg'} 
+          iconImg={mailIcon} 
           text='Mail'
           link="rafaelnacle@gmail.com"
           backgroundColor='#FFFFFF'
           color='#374151'
         />
         <Button 
-          iconImg={'./src/assets/LinkedIn.svg'} 
+          iconImg={LinkedInIcon} 
           text='LinkedIn'
           link='https://www.linkedin.com/in/rafael-nacle/'
           backgroundColor="#5093E2"

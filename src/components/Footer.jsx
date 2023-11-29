@@ -1,21 +1,26 @@
 import '../styles/Footer.css'
 import IconButton from './IconButton'
 
+import twitterIcon from '../assets/twitter-icon.svg'
+import facebookIcon from '../assets/facebook-icon.svg'
+import instagramIcon from '../assets/instagram-icon.svg'
+import githubIcon from '../assets/github-icon.svg'
+
 function Footer( ) {
   return (
     <footer>
       <IconButton 
-        iconImg='./src/assets/twitter-icon.svg'
+        iconImg={twitterIcon}
         link="https://twitter.com/rafanacle"
       />
       <IconButton 
-        iconImg='./src/assets/facebook-icon.svg'
+        iconImg={facebookIcon}
       />
       <IconButton 
-        iconImg='./src/assets/instagram-icon.svg'
+        iconImg={instagramIcon}
       />
       <IconButton 
-        iconImg='./src/assets/github-icon.svg'
+        iconImg={githubIcon}
         link='https://github.com/rafaelnacle'
       />
     </footer>
